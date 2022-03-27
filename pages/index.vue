@@ -16,7 +16,7 @@
           "
           src="@/assets/logo.png"
         />
-        <div style="color: white"><b>fffpirna</b></div>
+        <div style="color: white"><b>10. globaler Klimastreik - 25.03.</b></div>
       </div>
     </a>
     <b-carousel
