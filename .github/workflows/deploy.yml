@@ -15,4 +15,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          cname: peoplenotprofit.deee4future.me
+          cname: gs2503.deee4future.me
