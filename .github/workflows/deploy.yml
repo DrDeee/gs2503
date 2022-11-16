@@ -8,6 +8,8 @@ jobs:
         uses: actions/checkout@v2
       - name: Install dependencies
         run: yarn install --frozen-lockfile
+        env:
+          BASE_PATH: "/gs2503/"
       - name: Generate static files
         run: yarn run generate
       - name: Deploy
@@ -15,4 +17,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          cname: gs2503.deee4future.me
